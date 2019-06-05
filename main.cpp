@@ -12,9 +12,8 @@ int main()
 	int choice;
 	cin >> choice;
 
-	cout << fib(choice + 1) << endl;
+	cout << "The "<< choice << "th fibonacci number is " << fib(choice + 1) << endl;
 
-	//TODO:Print out nth fibonacci number
 	system("PAUSE");
 	return 0;
 }
@@ -27,3 +26,4 @@ int fib(int n)
 	else
 		return fib(n - 1) + fib(n - 2);
 }
+
